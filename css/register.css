@@ -1,0 +1,115 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+.logo{
+    position: absolute;
+    left: 15px;
+    top: 25px;
+        /* line-height: 105px; */
+    width: 171px;
+    height: 61px;
+}
+.header .logo a {
+    display: block;
+    font-size: 0;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+}
+.registerarea{
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3{
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-weight: 400;
+}
+.registerarea .login{
+    float: right;
+    font-size: 14px;
+}
+.registerarea .login a{
+    color: orange;
+}
+.registerarea .login a:hover{
+    color: #c81523;
+    text-decoration: underline;
+}
+.reg_from{
+    width: 600px;
+    /* background: pink; */
+    margin: 50px auto 0;
+}
+.reg_from ul li{
+    margin-top: 10px;
+}
+.reg_from ul li label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.reg_from ul li .inp{
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.error{
+    color: #c81523;
+}
+.error_icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-top: -3px;
+    background: url(../images/error.png) no-repeat;
+}
+.success{
+    color: green;
+}
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-top: -3px;
+    background: url(../images/success.png) no-repeat;
+}
+.agree{
+    padding-left: 80px;
+}
+.agree input{
+    vertical-align: middle;
+}
+.agree a{
+    color: skyblue;
+}
+.btn{
+    width: 200px;
+    height: 37px;
+    background-color: #c81523;
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.mod_copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+.mod_copyright .links a{
+    margin:0 8px;
+}
+.copyright{
+    margin-top: 15px;
+}
